@@ -10,17 +10,6 @@ function Ask_state()
     return selected_state
 end
 
--- function Does_array_contain(the_array, str) --what does this function do?
---     for i = 1,#the_array,1
---     do
---         local x = (the_array[i])
---         if (string.lower(x) == string.lower(str)) then
---             return true
---         end
---     end
---     return false
--- end
-
 function Return_taxrate(the_array, str) --kinda looks like this
     for i = 1,#the_array,1
     do
