@@ -15,7 +15,7 @@ function Return_taxrate(the_array, str) --kinda looks like this
     do
         local x = (the_array[i])
         if ((string.lower(x[1]) == string.lower(str)) or (string.lower(x[2]) == string.lower(str))) then
-            return {x[2], x[3]} -- returns state name, tax rate -- ask where 2 and 3 are being returned to
+            return {x[2]}
         end
     end
 end
@@ -25,7 +25,7 @@ local state = Ask_state()
 local state_info = Return_taxrate(Constants.State_taxrate, state) -- Experimental
 if state_info then
     print("State "..state_info[1].." exists")
-    print("Tax rate is "..state_info[2])
+    print("What would you like to know...", "State Tax - State Tree" )
 else
     print(state.." is not a state")
 end
