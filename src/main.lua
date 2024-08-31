@@ -47,3 +47,6 @@
 ---C:\Users\HotCh\OneDrive\Desktop\myGame>
 ---C:\Users\HotCh\OneDrive\Desktop\myGame>lua src/models/tax_table.lua -- current!! -- I changed this get this fixed
 ---rev
+
+
+--d:\dev\state-tax>lua src/tax_table.lua
