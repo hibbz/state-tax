@@ -35,7 +35,7 @@ Constants.State_taxrate = {
     {"NY", "New York", "4.5% (can go up to 8% due to multiple circumstances..)"},
     {"NC", "North Carolina", "4.75%"},
     {"ND", "North Dakota", "5.00%"},
-    {"OH", "Ohio", "7.25%", "tseT"},
+    {"OH", "Ohio", "7.25%", "Buckeye Tree"},
     {"OK", "Oklahoma", "4.50%"},
     {"OR", "Oregon", "0%"},
     {"PA", "Pennsylvania", "6.00%"},
@@ -43,7 +43,7 @@ Constants.State_taxrate = {
     {"SC", "South Carolina", "6.00%"},
     {"SD", "South Dakota", "4.50%"},
     {"TN", "Tennessee", "7.00%"},
-    {"TX", "Texas", "6.25%"},
+    {"TX", "Texas", "6.25%", "Pecan Tree"},
     {"UT", "Utah", "4.85%"},
     {"VT", "Vermont", "6.00%"},
     {"VA", "Virginia", "5.30%"},
@@ -61,5 +61,9 @@ Constants.State_list = {
 "MA MI MN MS MO MT NE NV NH NJ", 
 "NM NY NC ND OH OK OR PA RI SC",
 "SD TN TX UT VT VA WA WV WI WY"}
+
+Constants.Question_List = {
+    {"Sales Tax", "State Tree", "Most Famous For"}
+}
 
 return Constants
